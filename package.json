@@ -1,0 +1,13 @@
+{
+  "name": "batch-tracker-setup",
+  "version": "1.0.0",
+  "private": true,
+  "license": "AGPL-3.0-or-later",
+  "description": "One-time setup script for a self-hosted Batch Tracker instance. Not needed to run the app itself - index.html is a static page with no build step.",
+  "scripts": {
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.0"
+  }
+}
